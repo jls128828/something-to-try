@@ -1,3 +1,4 @@
+
 #HTTP Server in C
 A simple HTTP/1.1 server implemented in C on Linux. Supports static files (HTML, images), 404 error pages, and access logging.
 
@@ -18,3 +19,7 @@ A simple HTTP/1.1 server implemented in C on Linux. Supports static files (HTML,
 ```bash
 gcc httpd_stage2.c -o httpd_stage2
 ./httpd_stage2
+## Author
+jls128828
+## License
+MIT
