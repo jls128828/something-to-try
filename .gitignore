@@ -1,9 +1,22 @@
+# 系统文件
 .bash*
-.gitconfig
+.ICEauthority
+.esd_auth
+.viminfo
 *.swp
 *.swo
-access.log
+
+# 用户配置目录
+.cache/
+.config/
+.dbus/
+.local/
+
+# 编译产物
 httpd_stage1
 httpd_stage2
 http_stage2
 *.o
+
+# 日志文件
+access.log
