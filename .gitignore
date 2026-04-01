@@ -1,22 +1,9 @@
-sh*
-.profile
-.viminfo
-.ICEauthority
-.esd_auth
+.bash*
+.gitconfig
 *.swp
 *.swo
-
-# 编译产物
+access.log
 httpd_stage1
 httpd_stage2
 http_stage2
 *.o
-
-# 日志文件
-access.log
-
-# 缓存和配置
-.cache/
-.config/
-.dbus/
-.local/
