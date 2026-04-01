@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> KingKing's Dear service </title>
+<style>
+    body{
+        font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+    }
+    h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+    a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            border-radius: 4px;
+        }    
+    </style>
+</head>
+<body>
+    <h1>Welcome to my HTTP service! <h1>
+    
+    <div class="card">
+        <h2> Page List </h2>
+        <ul>
+            <li><a href="/hello.html">Hello!</a></li>
+            <li><a href="/image_demo.html">Picture Display</a></li>
+            <li><a href="/nanjing1.jpg">nanjing.lake </a></li>
+            <li><a href="/nanjing2.jpg">nanjing.tree </a></li>
+            <li><a href="/nanjing3.jpg">nanjing.a </a></li>
+            <li><a href="/nanjing4.jpg">nanjing.b </a></li>
+            <li><a href="/nanjing5.jpg">nanjing.light </a></li>
+        </ul>
+    </div>
+    
+    <div class="card">
+       <h2>Picture Preview</h2>
+        <img src="/nanjing1.jpg" alt="beautiful spot in nanjing" width="200">          <img src="/nanjing2.jpg" alt="beautiful spot in nanjing" width="200">          <img src="/nanjing3.jpg" alt="beautiful spot in nanjing" width="200">
+        <img src="/nanjing4.jpg" alt="beautiful spot in nanjing" width="200">
+        <img src="/nanjing5.jpg" alt="beautiful spot in nanjing" width="200">
+
+       
+    </div>
+    
+    <div class="card">
+        <h2>consituation</h2>
+        <p>running!</p>
+        <p>Page root ./www</p>
+        <p>Access log: access.log</p>
+    </div>
+</body>
+</html>
